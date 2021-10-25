@@ -29,7 +29,7 @@ const users = [
 
 function App() {
   return (
-    <div>
+    <div className="AllUsres">
       {users.map((el) => (
         <User name={el.name} imageSrc={el.imageSrc} tweets={el.tweets} />
       ))}

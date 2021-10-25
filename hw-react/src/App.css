@@ -36,6 +36,18 @@
     transform: rotate(360deg);
   }
 }
+body{background-color: #dff7fd;
+
+}
 .tweet {
   text-align: center;
+  border: #565758 1px solid;
+  margin: 5% 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  background-color: white;
+}
+
+.AllUsres{
+  padding: 0 10% ;
 }
